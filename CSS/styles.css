@@ -1,0 +1,39 @@
+/**************************TAG SELECTORS ************************/
+
+body {
+  background-color: #AA96B7;
+}
+
+h1 {
+  color: #5E3B4D
+}
+
+h2 {
+  color: #5E3B4D
+}
+
+h3 {
+  color: #5E3B4D
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-top: 7px dotted #5E3B4D;
+  width: 5%
+}
+img {
+  width: 320px;
+  height: 400px;
+}
+img:hover {
+  width: 500px;
+  height: 600px;
+}
+/**************************CLASS SELECTORS ************************/
+.product {
+background-color: white;
+}
+.circular {
+border-radius: 100%;}
