@@ -1,39 +1,185 @@
 /**************************TAG SELECTORS ************************/
-
 body {
-  background-color: #AA96B7;
+  margin: 0;
+  padding-top: 100px;
 }
 
 h1 {
-  color: #5E3B4D
+  color: #FF8E76;
 }
 
 h2 {
-  color: #5E3B4D
+  color: #FF8E76;
 }
 
-h3 {
-  color: #5E3B4D
-}
-
-hr {
-  margin-left: auto;
-  margin-right: auto;
-  border-style: none;
-  border-top: 7px dotted #5E3B4D;
-  width: 5%
-}
 img {
-  width: 320px;
-  height: 400px;
+  height: 100px;
+  width: 100px;
 }
-img:hover {
-  width: 500px;
-  height: 600px;
+
+p {
+  left: 75px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
-/**************************CLASS SELECTORS ************************/
-.product {
-background-color: white;
+
+video {
+  position: absolute;
+  right:0;
+  width: 100%;
+  z-index:-1;
 }
-.circular {
-border-radius: 100%;}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FF8E76;
+  font-size: 17px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+content {
+  left: 30px;
+}
+
+.home {
+  padding-bottom: 600px;
+}
+
+.content h1 {
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 60px;
+  text-decoration: none;
+  font-family: "Laguna", serif;
+}
+
+.content p {
+  padding-left: 50px;
+  text-decoration: none;
+  color: #FF8E76;
+}
+
+.product-header h1 {
+  padding-left: 50px;
+  text-decoration: none;
+  font-family: "Laguna", serif;
+}
+
+/************************** CLASS SELECTORS ************************/
+nav .logo {
+  width: 200px;
+}
+
+.events {
+  padding-left: 50px;
+  width: 200px;
+  background-color: white;
+  display: block;}
+
+.contact {
+  padding-left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: block;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider img {
+  width: 150px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #F8F6EF;
+  border-width:35px;
+}
+
+.slider ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1px;
+  padding-left: 10px;
+  }
+
+/********************Contact section****************/
+.contact {
+    width:100%;
+    height:inherit;
+}
+.talk {
+    display: inline-block;
+    width:500px;
+    height:150px;
+    margin-right: 200px;
+}
+
+.feedback-input {
+  display: block;
+  font-family: "Lucida Console", "Courier New", monospace; ;
+  font-weight:400;
+  font-size: 16px;
+  background-color: #F8F6EF;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+textarea {
+  height: 150px;
+  resize:vertical;
+}
+
+[type="send"] {
+  font-family: "Lucida Console", "Courier New", monospace; ;
+  width: 100%;
+  background:#FF8E76;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:400;
+}
+[type="submit"]:hover { background:#FF8E76; }
+
+.stalk {
+    display: inline-block;
+    width:500px;
+    height:150px;
+    vertical-align: top;
+}
+
+.huge {
+  background-color: red;
+}

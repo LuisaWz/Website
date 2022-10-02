@@ -3,55 +3,77 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content=Solui is the liquer brand that makes your heart beat faster>
-  <title>[Icon] Solui</title>
+  <meta name="description" content="TBD">
+  <title>Luisa</title>
   <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="drink.jpg">
 </head>
 
 <body>
-  <h1 >Welcome to <strong>Solui</strong>.</h1>
-  <br>
-  <h3> <em>The history of this startup</em></h3>
-  <p>This is a page about <strong>rosolio</strong></p>
-  <p>More specifially this is a page about us, the startup Solui, as we are selling super nice liquers. You can check out all of our products on this side - lets start with the ones below.</p>
-  <hr>
-  <h3>The products we sell</h3>
-  <ul>
-    <li>Our beloved Rosolio with plum, mirabelles, and salbei </li>
-    <img class="product" src="IMG_6142.jpg" alt="Rosolio product one">
-    <br>
-    <button onclick="location.href='rosolio1.html'" target="_blank" type="button">
-      Buy Rosolio 1</button>
-    <br>
-    <hr>
-    <li>Rosolio 2</li>
-    <img class="product circular" src="IMG_6120.jpg" alt="Rosolio product two">
-    <br>
-    <button onclick="location.href='rosolio2.html'" target="_blank" type="button">
-      Buy Rosolio 2
-    </button>
-    <br>
-    <hr>
-    <li>Rosolio 3</li>
-    <img class="product circular"src="IMG_6126.jpg" alt="Rosolio product three">
-    <br>
-    <button onclick="location.href='rosolio3.html'" target="_blank" type="button">
-      Buy Rosolio 3
-    </button>
-    <br>
-  </ul>
-  <h3>Skills</h3>
-  <table cellspacing="20" border="1pixel">
-    <tr>
-      <td>Writing 💜💜💜💜🤍</td>
-      <td>Dancing 💜💜💜🤍🤍</td>
-    </tr>
-    <tr>
-      <td>Priniting 💜💜🤍🤍🤍</td>
-      <td>Coding 💜💜💜🤍🤍</td>
-    </tr>
-  </table>
-  <h3> <a href='aboutus.html'>About us</a> </h3>
-</body>
+  <div class="home">
+    <video autoplay muted plays-inline>
+      <source src="images/Plum.mp4" type=video/mp4>
+    </video>
 
+    <nav id="home">
+      <img src="Hand.png" class="logo">
+      <ul>
+        <li><a href="#home"> HOME</a></li>
+        <li><a href="#products">PRODUCT</a></li>
+        <li><a href="#events">EVENTS</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+      <div class="content">
+      <h1>The XXX</h1>
+      <p>Off-beat liqueurs with organic ingridients</p>
+    </div>
+  </div>
+
+  <div id="products" class="products">
+    <div class="product-header">
+      <h1>Products</h1>
+    </div>
+    <div class="slider">
+      <ul>
+        <li><img src="images/IMG_6142.jpg" alt="Rosolio reloaded"></li>
+        <li><img src="images/IMG_6142.jpg" alt="Rosolio reloaded"></li>
+        <li><img src="images/IMG_6142.jpg" alt="Rosolio reloaded"></li>
+        <li><img src="images/IMG_6142.jpg" alt="Rosolio reloaded"></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="events" class="events">
+    <h1>Events</h1>
+  </div>
+
+  <div id="contact" class="contact">
+    <h1>Contact</h1>
+      <div class="talk">
+        <h2>Talk?</h2>
+        <p>Want to get in touch for feedback, customer service, or potential colabs? Curious to hear from you. Drop us a line!</p>
+        <hr>
+        <br>
+        <form>
+          <p>Your first name</p>
+          <input name="first_name" type="text" class="feedback-input" />
+          <p>Your last name</p>
+          <input name="last_name" type="text" class="feedback-input"  />
+          <p>Your e-mail</p>
+          <input name="email" type="text" class="feedback-input" />
+          <p>Your message</p>
+          <textarea name="text" class="feedback-input"></textarea>
+          <input type="send" value="Send"/>
+        </form>
+      </div>
+      <div class="stalk"><h2>Or rather stalk?</h2>
+        <p>Find out what we are up to on our socials & press articles or stay tuned with our newsletter. Cheers! </p>
+        <hr>
+
+      </div>
+  </div>
+  <script src="Java/index.js" charset="utf-8"></script>
+  </body>
 </html>
